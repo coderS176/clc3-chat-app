@@ -29,4 +29,7 @@ public class RoomService {
         return roomRepositories.findByRoomId(roomId);
     }
 
+    public void updateRoom(Room room) {
+        roomRepositories.save(room);
+    }
 }

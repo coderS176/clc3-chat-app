@@ -6,17 +6,12 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-@NoArgsConstructor
+
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class Message {
     private String sender;
     private String content;
     private LocalDateTime timestamp;
-
-    public Message(String sender, String content){
-        this.sender = sender;
-        this.content = content;
-        this.timestamp = LocalDateTime.now();
-    }
 }
