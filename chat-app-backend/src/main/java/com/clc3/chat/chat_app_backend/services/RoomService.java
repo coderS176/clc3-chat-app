@@ -2,7 +2,9 @@ package com.clc3.chat.chat_app_backend.services;
 
 import com.clc3.chat.chat_app_backend.entities.Room;
 import com.clc3.chat.chat_app_backend.repositories.RoomRepositories;
+import org.springframework.stereotype.Service;
 
+@Service
 public class RoomService {
 
     private final RoomRepositories roomRepositories;
