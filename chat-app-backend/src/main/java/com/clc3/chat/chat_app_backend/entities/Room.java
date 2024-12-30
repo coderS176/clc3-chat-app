@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collation = "rooms")
+@Document(collection = "rooms")
 public class Room {
     @Id
     private String id;

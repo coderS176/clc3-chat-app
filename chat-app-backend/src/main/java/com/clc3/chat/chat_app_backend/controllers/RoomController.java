@@ -26,7 +26,7 @@ public class RoomController {
         else{
             return new ResponseEntity<>(roomService.createRoom(roomId), HttpStatus.CREATED);
         }
-    }
+    }  
 
     // get room
     @GetMapping("/{roomId}")
